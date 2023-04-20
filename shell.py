@@ -5,3 +5,4 @@ c2 = Courier.objects.create(name='qt', phone_number=45674567)
 c3 = Courier.objects.create(name='zb', phone_number=7890780)
 
 
+git pull origin alex
