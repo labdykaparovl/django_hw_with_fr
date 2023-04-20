@@ -1,0 +1,12 @@
+git add shell.py
+git reset shell.py
+
+git commit -m "Add code for creating 3 couriers"
+git log
+
+git tag version_beta
+git log --pretty=oneline --all
+git reset --hard df69078942197c1702d125a8eedb61cf0f131727
+
+
+git tag -d version_beta
